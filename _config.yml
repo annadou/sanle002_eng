@@ -1,0 +1,47 @@
+# Site settings
+title: Cataract Study
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.etudecataracte.ca" # the name of your domain
+
+
+# Hero
+hero:
+    hero_img: hero.jpg
+    hero_title: 
+    hero_description: 
+
+# Contact form
+api_token: 3c16c7044675416ed7cb32e35eebeebd
+
+# Contact info
+contact:
+    phone: 514 123 4567
+    emergency: 514 123 4567
+    email: 
+    address: 
+
+# Opening hours
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Footer
+copyright: © 2019 A.D - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics:
+google_verification:
